@@ -15,17 +15,28 @@ ACMG/ACGS evidence collation and Bayesian point-based re-classification
 
 The scripts are designed to run sequentially as a modular analysis pipeline:
 
-Script	Purpose
+Script	Purpose:
+
 SCRIPT-1	Multi-laboratory variant dataset collation and cleaning
+
 SCRIPT-2	HGVS nomenclature harmonisation and Ensembl Variant Recoder querying
+
 SCRIPT-3	APC dataset import and processing
+
 SCRIPT-4	gnomAD population frequency and FAF evidence assessment
+
 SCRIPT-5	Oxford Alamut classification extraction
-SCRIPT-6	Computational prediction score retrieval (REVEL, SpliceAI, VEP)
+
+SCRIPT-6	Computational prediction score retrieval (REVEL, SpliceAI)
+
 SCRIPT-7	PM1 mutational hotspot assessment
+
 SCRIPT-8	APC functional evidence integration
+
 SCRIPT-9	ACMG/ACGS evidence collation and final re-classification
+
 SCRIPT-10	Figure generation and visualisation outputs
+
 
 # Reference Sequences
 
